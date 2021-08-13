@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+  labels:
+  name: t2seed
+  namespace: default
+spec:
+  clusterIP: 10.43.246.16
+  clusterIPs:
+  - 10.43.246.16
+  ports:
+  - name: p2p-t2seed
+    port: 12897
+    protocol: TCP
+    targetPort: 12897
+  sessionAffinity: None
+  type: ClusterIP
