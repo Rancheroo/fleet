@@ -8,7 +8,7 @@ metadata:
 spec:
   replicas: 10
   selector:
-    matchlabels:
+    matchLabels:
       app: t2seed
   strategy:
     rollingUpdate:
