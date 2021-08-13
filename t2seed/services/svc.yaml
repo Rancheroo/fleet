@@ -4,6 +4,8 @@ metadata:
   name: t2seed
   namespace: default
 spec:
+  selector:
+    app: t2seed
   clusterIP: 10.43.246.16
   clusterIPs:
   - 10.43.246.16
