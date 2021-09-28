@@ -31,3 +31,4 @@ helm:
   # Custom values that will be passed as values.yaml to the installation
   values:
     certManager.enabled: true
+    logLevel: debug
