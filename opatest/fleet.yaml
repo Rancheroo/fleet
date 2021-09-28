@@ -3,7 +3,7 @@
 
 # The namespace this chart will be installed and restricted to,
 # if not specified the chart will be installed to "default"
-namespace: opatest
+#namespace: opatest
 
 # Custom helm options
 helm:
