@@ -78,4 +78,3 @@ Create the name of the service account to use
 {{ printf "%s-webhook-tls" (include "opa.fullname" .) }}
 {{- end -}}
 
-{{- end -}}
